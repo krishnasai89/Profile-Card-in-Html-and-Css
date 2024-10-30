@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <title> Day Night Toggle | CodingLab </title>
+    <link rel="icon" href="./favicon.png"" type="png/image">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="container">
+        <input type="checkbox" id="switch">
+        <div class="outer">
+            <div class="content">
+                <label for="switch">
+                    <span class="toggle">
+                        <span class="circle"></span>
+                    </span>
+                </label>
+                <div class="image-box">
+                    <img src="img-1.png" alt="">
+                </div>
+                <div class="details">
+                    <div class="name">Krishna Sai</div>
+                    <div class="job">Full Stack Developer</div>
+                    <div class="buttons">
+                        <p>Looking to work in an organization that can provide a variety of opportunities that allow me to
+                            expand my skills and knowledge while working towards achieving the organizational goals. </p>
+                        <span id="dots"></span>
+                        <span id="more">
+                            <div class="Protfolio-title"><small>Protfolio:</small>
+                            <p><a href="https://protfolio-1-navy.vercel.app/" class="Protfolio">https://protfolio-1-navy.vercel.app/</a></p></div>
+                            <div class="Protfolio-title"><small>Address:</small><Address>Ongole, Prakasam, Andhra Pradesh</Address></div>
+                        </span>
+                        <button onclick="readMore()" id="readMoreBtn">Read More</button>
+                    </div>
+                </div>
+                <div class="media-icons">
+                    <a href="https://www.linkedin.com/in/krishna-sai-vellampalli/?trk=opento_sprofile_topcard"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/krishnasai89"><i class="fab fa-github"></i></a>
+                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./scrip.js"></script>
+</html>
